@@ -1,0 +1,263 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Profile</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<style>
+			.chart-container {
+			  width: 40%; /* Set width to 50% untuk membuat chart bersebelahan */
+			  float: left; /* Menggunakan float untuk mengatur chart bersebelahan */
+			  padding: 20px; /* Memberikan ruang di sekitar chart */
+			  box-sizing: border-box; /* Memastikan padding tidak mempengaruhi lebar total */
+			}
+		  </style>
+		  <style>
+			.chart-container1 {
+			  width: 60%; /* Set width to 50% untuk membuat chart bersebelahan */
+			  float: left; /* Menggunakan float untuk mengatur chart bersebelahan */
+			  padding: 20px; /* Memberikan ruang di sekitar chart */
+			  box-sizing: border-box; /* Memastikan padding tidak mempengaruhi lebar total */
+			}
+		  </style>
+		<style>
+			body{margin:20px;}
+			#readMore{
+			  display:inline-block;
+			  color:blue;
+			}
+			#readLess{
+			  display:none;
+			  color:blue;
+			}
+			#readMore:hover,#readLess:hover{
+			  color:navy;
+			  cursor:pointer;
+			  text-decoration:underline;
+			}
+			#moreText{
+			  display:none;
+			}
+			body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+	h2 {
+      text-align: center;
+      color: #333;
+    }
+		 </style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Home</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li ><a href="profile.html">Profile</a></li>
+							<li class="active"><a href="cv.html">Curriculum Vitae</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://github.com/yoggyarif/yoggyarif09.git" class="icon brands fa-github"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/yoggy.arif" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/yoggy_arif/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://api.whatsapp.com/send?phone=6281371315560&text=Halo%20Admin%20Saya%20Mau%20Order" class="icon brands alt fa-whatsapp"><span class="label">whatsapp</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+				<div id="main">
+
+					<!-- Featured Post -->
+						<article class="post featured">
+							<header class="major">
+								
+								<div class="container">
+									<h1><a>Curriculum Vitae</a></h1>
+									
+								  </div>
+							</header>
+						</article>
+
+					<!-- Posts -->
+						<section class="posts">
+							<article>
+								<header>
+									<div class="container">
+										<h2><a>Pendidikan</a></h2>
+									  </div>
+								</header>
+								<a  class="image fit"><img src="images/yoggysekolah.jpg" alt="" /></a>
+								<pre>Yoggy telah menempuh perjalanan pendidikan yang 
+mengesankan, dimulai dari :
+<i class='fas fa-graduation-cap' style='font-size:36px'></i> : SD Negeri 012 Pekanbaru
+<i class='fas fa-graduation-cap' style='font-size:36px'></i> : SMP Negeri 026 Pekanbaru
+<i class='fas fa-graduation-cap' style='font-size:36px'></i> : SMK Negeri 004 Pekanbaru
+<i class='fas fa-user-graduate' style='font-size:36px'></i>     : Mahasiswa UMRi,Teknik Informatika.</pre>
+							</article>
+
+							<article>
+								<header>
+									<div class="container">
+										<h2><a>Pengalaman Berusaha</a></h2>
+									  </div>
+								</header>
+								<a class="image fit"><img src="images/usaha.jpeg" alt="" style="height:340px;width:100%;" /></a>
+<div>
+   <p>Yoggy memulai petualangan baru dengan membuka 
+	usaha toko baju thrift bersama teman-temannya. 
+	Meskipun Yoggy awalnya tidak berpengalaman 
+	dalam perthriftan, dia menunjukkan semangat untuk belajar 
+	dan mengatasi tantangan yang ada.
+	<span id="dots">...</span><span id="readMore"> Read More &raquo;</span><span id="moreText"> Usaha tersebut mengalami 
+		lonjakan pembelian pakaian thrift yang signifikan, 
+		tetapi sayangnya, perbedaan pendapat antara pemilik 
+		menyebabkan toko tersebut akhirnya bubar.
+
+   </span>
+	<span id="readLess"> &laquo; Read Less</span></p>
+</div>
+<script>
+$(document).ready(function(){
+   $('#readMore').click(function(){
+     $("#dots,#readMore").css("display","none");
+     $("#moreText,#readLess").css("display","inline");
+   });
+   $('#readLess').click(function(){
+     $("#dots,#readMore").css("display","inline");
+     $("#moreText,#readLess").css("display","none");
+   });
+});
+</script>
+								<pre></pre>
+							</article>
+						</section>
+						<article class="post featured">
+							<header class="major">
+								<h2><a>Pengalaman Kerja</a></h2>
+							<a class="image fit"><img src="images/kerja.jpg" alt="" /></a>
+							<pre>Pengalaman kerja Yoggy telah menunjukkan kemajuan yang luar biasa sejak dari masa SMK hingga saat ini :
+<i class='fas fa-user-tie' style='font-size:36px'></i> : Pramuniaga di sebuah toko distro Pestaphoria di Pekanbaru saat masih duduk di bangku SMK (2015 - 2017). 
+<i class='fas fa-user-tie' style='font-size:36px'></i> : maintenance tower Telkomsel CV Muara Riau (2017 - 2018).
+<i class='fas fa-user-tie' style='font-size:36px'></i> : industri penetasan telur ayam sebagai vaksinator ayam PT.Chaeroendphokpand (2018 - 2022).
+<i class='fas fa-user-tie' style='font-size:36px'></i> : Admin IT di CV Pelangi Media Pustaka (2022 - sekarang).</pre>
+
+<div class="chart-container">
+	<a>Hard Skill</a>
+	<canvas id="myPieChart" style="width:100%;max-width:600px"></canvas>
+	<script>
+	  var xValues1 = ["Hardware Computer", "HTML", "Installasi Computer", "CSS", "MySql"];
+	  var yValues1 = [55, 49, 44, 24, 15];
+	  var barColors1 = ["#b91d47", "#00aba9", "#2b5797", "#e8c3b9", "#1e7145"];
+  
+	  new Chart("myPieChart", {
+		type: "pie",
+		data: {
+		  labels: xValues1,
+		  datasets: [{
+			backgroundColor: barColors1,
+			data: yValues1
+		  }]
+		},
+		options: {
+		  title: {
+			display: true,
+			text: "World Wide Wine Production 2018"
+		  }
+		}
+	  });
+	</script>
+  </div>
+  
+  <div class="chart-container1">
+	<a>Soft Skill</a>
+	<canvas id="myBarChart" style="width:100%;max-width:600px"></canvas>
+	<script>
+	  var xValues2 = ["Pekerja Keras", "Tanggung Jawab", "Ramah", "Kepemimpinan", "Tepat Waktu"];
+	  var yValues2 = [95, 90, 95, 75, 75];
+	  var barColors2 = ["red", "green", "blue", "orange", "brown"];
+  
+	  new Chart("myBarChart", {
+		type: "bar",
+		data: {
+		  labels: xValues2,
+		  datasets: [{
+			backgroundColor: barColors2,
+			data: yValues2
+		  }]
+		},
+		options: {
+		  legend: { display: false },
+		  title: {
+			display: true,
+			text: "World Wine Production 2018"
+		  }
+		}
+	  });
+	</script>
+  </div>
+  <pre>
+
+
+
+	
+
+	
+
+
+	
+</pre>
+</header>						
+</article>
+	
+				</div>
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; 2024 Yoggyariffernandes</li><li>Design: <a href="https://www.instagram.com/yoggy_arif?igsh=NzkwcTIxaG1vdjdm">@Yoggy_arif</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
